@@ -31,7 +31,7 @@ namespace calculadora
                 if (c == '+' || c == '-' || c == '*' || c == '/')
                 {
                     num1 = int.Parse(visor.Text.Substring(StartIndex, cont));
-                    num2 = int.Parse(visor.Text.Substring(cont));
+                    num2 = int.Parse(visor.Text.Substring(cont + 1));
                     // soma
                     if (c == '+') 
                     {
